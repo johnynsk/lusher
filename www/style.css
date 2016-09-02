@@ -1,0 +1,29 @@
+body {
+	background: #f6f6f6;
+	margin-top: 3em;
+	margin-bottom: 3em;
+}
+.test .row-test{
+	text-align: center;
+
+}
+.picker{
+	margin: 2em;
+	height: 10em;
+	border: 2px solid #888;
+	width: 10em;
+	display: inline-block;
+	float: none;
+}
+.picker-null {
+	border: 1px transparent;
+}
+.copy-action {
+	cursor: pointer;
+}
+.step-area{
+	margin-top: 2em;
+}
+.step-area .row{
+	text-align: center;
+}

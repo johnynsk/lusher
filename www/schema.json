@@ -1,0 +1,138 @@
+{
+    "config": [
+        "gray", "want", "color", "blue", "green", "red", "yellow", "real"
+    ],
+    "steps": {
+        "gray": [
+            [
+                [["gray.light", 0], null, ["gray.white", 1]],
+                [null, ["gray.middle", 2], null],
+                [["gray.black", 3], null, ["gray.dark", 4]]
+            ]
+        ],
+        "want": [
+            [
+                [["main.light", 0], ["main.blue", 1], ["main.green", 2], ["main.red", 3]],
+                [["main.yellow", 4], ["main.purple", 5], ["main.brown", 6], ["main.dark", 7]]
+            ]
+        ],
+        "color": [
+            [[["color.0", 0], ["color.1", 1]]],
+            [[["color.2", 2], ["color.3", 3]]],
+            [[["color.0", 0], ["color.2", 2]]],
+            [[["color.3", 3], ["color.1", 1]]],
+            [[["color.0", 0], ["color.3", 3]]],
+            [[["color.2", 2], ["color.1", 1]]]
+        ],
+        "blue": [
+            [[["blue.0", 0], ["blue.1", 1]]],
+            [[["blue.2", 2], ["blue.3", 3]]],
+            [[["blue.0", 0], ["blue.2", 2]]],
+            [[["blue.3", 3], ["blue.1", 1]]],
+            [[["blue.0", 0], ["blue.3", 3]]],
+            [[["blue.2", 2], ["blue.1", 1]]]
+        ],
+        "green": [
+            [[["green.0", 0], ["green.1", 1]]],
+            [[["green.2", 2], ["green.3", 3]]],
+            [[["green.0", 0], ["green.2", 2]]],
+            [[["green.3", 3], ["green.1", 1]]],
+            [[["green.0", 0], ["green.3", 3]]],
+            [[["green.2", 2], ["green.1", 1]]]
+        ],
+        "red": [
+            [[["red.0", 0], ["red.1", 1]]],
+            [[["red.2", 2], ["red.3", 3]]],
+            [[["red.0", 0], ["red.2", 2]]],
+            [[["red.3", 3], ["red.1", 1]]],
+            [[["red.0", 0], ["red.3", 3]]],
+            [[["red.2", 2], ["red.1", 1]]]
+        ],
+        "yellow": [
+            [[["yellow.0", 0], ["yellow.1", 1]]],
+            [[["yellow.2", 2], ["yellow.3", 3]]],
+            [[["yellow.0", 0], ["yellow.2", 2]]],
+            [[["yellow.3", 3], ["yellow.1", 1]]],
+            [[["yellow.0", 0], ["yellow.3", 3]]],
+            [[["yellow.2", 2], ["yellow.1", 1]]]
+        ],
+        "real": [
+            [
+                [["main.brown", 6], ["main.blue", 1], ["main.light", 0], ["main.green", 2]],
+                [["main.red", 3], ["main.yellow", 4], ["main.dark", 7], ["main.purple", 5]]
+            ]
+        ]
+    },
+    "colors": {
+        "_comment": "contact me for receive true colorschema",
+        "gray": {
+            "white": "restricted-color",
+            "light": "restricted-color",
+            "middle": "restricted-color",
+            "dark": "restricted-color",
+            "black": "restricted-color"
+        },
+        "main2": {
+            "light": "restricted-color",
+            "blue": "restricted-color",
+            "green": "restricted-color",
+            "red": "restricted-color",
+            "yellow": "restricted-color",
+            "purple": "restricted-color",
+            "brown": "restricted-color",
+            "dark": "restricted-color"
+        },
+        "main": {
+            "light":"restricted-color",
+            "blue": "restricted-color",
+            "green": "restricted-color",
+            "red": "restricted-color",
+            "yellow": "restricted-color",
+            "purple": "restricted-color",
+            "brown": "restricted-color",
+            "dark": "restricted-color"
+        },
+        "color": {
+            "0": "main.blue",
+            "1": "main.yellow",
+            "2": "main.green",
+            "3": "restricted-color"
+        },
+        "blue": {
+            "0": "restricted-color",
+            "1": "restricted-color",
+            "2": "main.green",
+            "3": "restricted-color"
+        },
+        "green": {
+            "0": "restricted-color",
+            "1": "restricted-color",
+            "2": "main.green",
+            "3": "restricted-color"
+        },
+        "red": {
+            "0": "restricted-color",
+            "1": "restricted-color",
+            "2": "restricted-color",
+            "3": "restricted-color"
+        },
+        "yellow": {
+            "0": "restricted-color",
+            "1": "main.yellow",
+            "2": "restricted-color",
+            "3": "restricted-color"
+        }
+    },
+    "colors_inet": {
+        "main": {
+            "light":"restricted-color",
+            "blue": "restricted-color",
+            "green": "restricted-color",
+            "red": "restricted-color",
+            "yellow": "restricted-color",
+            "purple": "restricted-color",
+            "brown": "restricted-color",
+            "dark": "restricted-color"
+        }
+    }
+}

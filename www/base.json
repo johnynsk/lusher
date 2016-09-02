@@ -1,0 +1,36 @@
+{
+  "equal": {
+    "restricted_key": {
+      "text": "I'm not providing dataset for open-source repository. Please contact me."
+    }
+  },
+  "plusminus": {
+    "restricted_key": {
+      "text": "I'm not providing dataset for open-source repository. Please contact me."
+    }
+  },
+  "minus": {
+    "restricted_key": {
+      "text": "I'm not providing dataset for open-source repository. Please contact me."
+    }
+  },
+  "color": {
+    "restricted_key": {
+      "text": "I'm not providing dataset for open-source repository. Please contact me."
+    }
+  },
+  "plus": {
+    "restricted_key": {
+      "title": "Permission denied",
+      "percent": 100,
+      "flags": 0,
+      "text": "I'm not providing dataset for open-source repository. Please contact me."
+    }
+  },
+  "multiply": {
+    "restricted_key": {
+      "flags": 0,
+      "text": "I'm not providing dataset for open-source repository. Please contact me."
+    }
+  }
+}
